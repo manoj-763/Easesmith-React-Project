@@ -1,0 +1,80 @@
+.product-card {
+  border: 1px solid #313030;
+  width: 268px;
+  height: 320px; 
+}
+
+.product-image {
+  width: 100%;
+}
+
+.wishlist-icon {
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: #888;
+  cursor: pointer;
+}
+
+.view-product-overlay {
+  bottom: 0;
+}
+
+.view-product-overlay button{
+  background-color: #165315;
+  color: white;
+  border: 0px;
+}
+
+.card-body {
+  text-align: left; 
+}
+
+.rating {
+  font-size: 1.2rem;
+}
+
+.rating-value {
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.original-price {
+  font-size: 1.2rem;
+}
+
+.discount-price {
+  font-size: 1.2rem;
+}
+
+.button-one{
+  background-color: #165315;
+  border-radius: 10%;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.button-two{
+  background-color: white;
+  border-radius: 10%;
+  color: #165315;
+  border: 1px solid #165315;
+  font-weight: 600;
+}
+
+.button-three{
+  background-color: #165315;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+
+.card-text {
+  margin-bottom: 0; 
+}
+
+.rating {
+  margin-top: -4px; 
+}

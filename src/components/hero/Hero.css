@@ -1,0 +1,12 @@
+.plant-button{
+    background-color:  #165315;
+    border-style: none;
+    font-size: 18px;
+    
+}
+.pots-button{
+    color: gray;
+    border: 1px solid gray;
+    background: 1px solid white;
+    font-size: 18px;
+}

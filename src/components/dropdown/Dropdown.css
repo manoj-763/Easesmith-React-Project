@@ -1,0 +1,43 @@
+
+.arrow {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  
+  .dropdown-container {
+    position: relative;
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .dropdown-menu{
+    background-color: #165315;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu-custom {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    z-index: 1050; 
+    background-color: #165315;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  .dropdown-menu-custom.show {
+    display: block;
+  }
+  
+  .list-group-item {
+    border: none;
+  }
+  

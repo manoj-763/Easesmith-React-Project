@@ -1,0 +1,48 @@
+.filter-list-name {
+  background-color: #f5ffe6;
+  height: fit-content;
+  padding: 15px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 10px;
+}
+
+.filter-title {
+  font-weight: 600;
+  margin: 0;
+}
+
+.clear-all {
+  cursor: pointer;
+  font-weight: 600;
+  margin: 0;
+}
+
+.filter-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter-item {
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.toggle-icon {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .filter-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
