@@ -19,6 +19,7 @@ Product List Section: Displays a grid of products with images, names, prices, an
 Thank You Page: Redirects users with a simple acknowledgment after viewing a product.
 Add to Cart Modal: Shows product details and confirmation options when adding to the cart.
 Pagination: Navigates through multiple product listings.
+Veiw More: Button
 Getting Started
 Prerequisites
 Node.js (v14 or higher)
@@ -51,7 +52,7 @@ Open your browser and navigate to http://localhost:3000 to view the application.
 yarn preview
 Project Structure
 src/ - Contains all source files.
-components/ - Reusable components like ProductCard, Header, Pagination, and AddToCartModal.
+components/ - Reusable components like ProductCard, Header, Pagination,Seacrh, SideBar, Navbar, Hero Setion, ContextApi.
 pages/ - Contains main page components including the listing page and thank you page.
 hooks/ - Custom hooks for managing state.
 Technologies Used
@@ -65,4 +66,4 @@ Implementing state management for modals and pagination efficiently.
 Handling routing between pages effectively.
 =======
 # Easesmith-React-Project
->>>>>>> 53ead26acd7e34c70994dbdd98915a727888c12e
+
